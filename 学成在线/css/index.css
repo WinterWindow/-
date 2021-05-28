@@ -1,0 +1,330 @@
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.clearfix:after{
+    content:'';
+    display: block;
+    height:0;
+    visibility: hidden;
+}
+.header{
+    height: 42px;
+    margin: 30px auto;
+}
+.logo {
+    float: left;
+    width: 198px;
+    height: 42px;
+}
+.nav{
+    float: left;
+    width: 260px;
+    height: 42px;
+    margin-left: 70px;
+}
+.nav ul li{
+    display: block;
+    float: left;
+    font-size: 18px;
+    line-height: 42px;
+    height: 42px;
+    
+}
+.li1{
+    padding: 0 45px 0 11px;
+}
+.li2{
+    padding: 0 44px 0 0 ;
+}
+.li3{
+    padding-right:16px ;
+}
+.search{
+    float: left;
+    height: 42px;
+    width: 412px;
+    margin-left: 84px;
+    margin-right: 30px;
+    background-color: #ff4529;
+}
+.search input{
+    float: left;
+    width: 363px;
+    height: 42px;
+    padding-left: 19px;
+    color: #dadbdc;
+    border: 2px solid #00a4ff;
+    background-color: #fff;
+}
+.search button{
+    float: left;
+    width: 49px;
+    height: 42px;
+    background-color: #00a4ff;
+    background: url(../images/fa-search.png);
+}
+.user{
+    float: left;
+    width: 145px;
+    height: 42px;
+}
+ .user img{
+     display: block;
+    float: left;
+    margin-top: 5px;
+
+} 
+.user p{
+    display: block;
+    float: left;
+    margin-left: 10px;
+    line-height: 42px;
+}
+.banner{
+    height: 421px;
+    background-color: #033db2;
+}
+.banner .w{
+    /* 为什么没给高就显示不出来  虽然父级有高 但一个盒子没有内容 背景background不是内容 所以没有内容，也就没有高 */
+    
+    height: 421px;
+    margin: 0 auto;
+    background: url(../images/banner2.png)  no-repeat top center;
+}
+.banner  ul{
+    padding-top: 16px;
+    padding-bottom: 16px;
+    display: block;
+    float: left;
+    width: 193px;
+    height: 100%;
+    background-color: #13014b;
+}
+.banner  ul li{
+    font-size: 14px;
+    color: #fff;
+    padding: 12px  0 12px 22px;
+}
+.course{
+    float: right;
+    width: 230px;
+    height: 300px;
+    margin-top: 50px;
+}
+.course ul{
+    width: 230px;
+    padding: 0;
+}
+.course ul li{
+    padding: 11px 18px;
+    margin:0 ;
+    width:230px;
+    height: 70px;
+    color: black;
+    font-size: 18px;
+    background-color: white;
+    border-bottom: 2px solid #f5f5f5;
+}
+.course ul li:first-child{
+    padding: 0 18px;
+    height: 48px;
+    width: 230px;
+    font-size: 18px;
+    background-color: #9bceea;
+    text-align: center;
+    line-height: 48px;
+}
+.model0{
+    height: ;
+}
+.model1{
+    display: inline-block;
+    line-height: 18px;
+    margin-right: 8px;
+}
+.model2{
+    display: inline-block;
+    line-height:14px ;
+    font-size: 14px;
+}
+.model3{
+    font-size: 12px;
+    color: #c1c1c1;
+}
+.allcourse{
+    width: 200px;
+    height: 40px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 36px;
+    color:#3fb7ff;
+    border: 2px solid #3fb7ff;
+}
+.good{
+    height: 60px;
+    padding-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 3px  rgba(0,0,0,0.2);
+}
+.good h3{
+    float: left;
+    color: #3fb7ff;
+}
+.good ul{
+    float: left;
+}
+.good ul li {
+    float: left;
+}
+.good ul li a{
+    padding: 0 34px;
+    font-size: 16px;
+    border-left: 1px solid #eaeaea;
+}
+.mod{
+    float: right;
+    padding-right: 30px;
+    color: #3fb7ff;
+}
+.box{
+    margin-top: 34px;
+}
+.box-hd {
+    float: left;
+    width: 1200px;
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.box-hd h3{
+    height: 25px;
+    float: left;
+}
+.box-hd ul{
+    float: left;
+    padding-left: 350px;
+}
+.box-hd ul li{
+    float: left;
+    font-size: 16px;
+    padding-right: 70px;
+}
+.box-hd ul li:first-child{
+    color: #afdcfa;
+}
+.box-hd ul li:last-child{
+    padding-right:0;
+}
+.box-hd span{
+    float: right;
+    font-size: 12px;
+    color: #d2d3d4;
+    line-height: 25px;
+}
+.box-bd{
+   
+    float: left;
+}
+.box-bd ul{
+    width: 1225px;
+}
+.box-bd ul li{
+    position: relative;
+    float: left;
+    width: 230px;
+    height: 270px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-color: #f3f5f7;
+}
+.box-bd ul li em{
+    position: absolute;
+    top:0;
+    right: -3px;
+}
+.box-bd ul li img{
+    width: 100%;
+}
+.box-bd ul li h4{
+    font-size: 14px;
+    padding: 25px 20px 0 24px;
+}
+.info span{
+    display: block;
+    float: left;
+    font-size: 12px;
+    color: #ffbd96;
+    padding-left: 24px;
+}
+.info{
+    font-size: 12px;
+    color: #d9d9d9;
+    padding-top: 20px;
+}
+.php{
+    float: left;
+}
+.rbox{
+    float: left;
+    width: 958px;
+    margin-left: 14px;
+}
+.rbox img{
+    width: 100%;
+    margin-bottom: 23px;
+    
+}
+.foot{
+    float: left;
+    width: 1200px;
+    margin: 35px auto;
+}
+.copyright{
+    float: left;
+    width: 451px;
+    padding-left: 18px;
+}
+.copyright img{
+    margin-bottom: 25px;
+}
+.copyright p{
+    font-size: 12px;
+}
+.copyright div{
+    height: 37px;
+    width: 126px;
+    line-height: 37px;
+    margin-top: 17px;
+    border: 1px solid #00a4ff;
+}
+.copyright div a{
+    font-size: 16px;
+    padding: 0 30px;
+    color: #00a4ff;
+}
+.links{
+    float: right;
+
+}
+.links dl{
+    float: left;
+    margin-left: 100px;
+}
+.links dl dt{
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+.floor{
+    position: sticky;
+    top: 100px;
+    margin-left: 620px;
+    background-color: #f3f5f7;
+}
+.floor ul{
+    width: 50px;
+    height: 94px;
+}
+.floor ul li
+{
+    height: 47px;
+}

@@ -1,0 +1,76 @@
+/* 把我们所有标签的内外边距清零 */
+* {
+    margin: 0;
+    padding: 0;
+    /* css3盒子模型 */
+    box-sizing: border-box;
+}
+/* em 和 i 斜体的文字不倾斜 */
+img {
+    /* border 0 照顾低版本浏览器 如果 图片外面包含了链接会有边框的问题 */
+    border: 0;
+    /* 取消图片底侧有空白缝隙的问题 */
+    vertical-align: middle
+}
+
+
+
+a {
+    color: #666;
+    text-decoration: none
+}
+
+a:hover {
+    color: #c81623
+}
+
+
+
+body {
+    /* CSS3 抗锯齿形 让文字显示的更加清晰 */
+    -webkit-font-smoothing: antialiased;
+    background-color: #fff;
+    font: 12px/1.5 Microsoft YaHei, Heiti SC, tahoma, arial, Hiragino Sans GB, "\5B8B\4F53", sans-serif;
+    color: #666
+}
+.box {
+    background-color: #fff;
+    width: 234px;
+    height: 300px;
+    /* 让块级的盒子水平居中对齐 */
+    margin: 20px auto;
+    padding: 14px 0;
+}
+.box img{
+    display: inline-block;
+    margin: 0 34px;
+    width: 160px;
+    height: 160px;
+}
+.title{
+    display: inline-block;
+    padding: 0 10px;
+    width: 100%;
+    height:20.8px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+.desc{
+    display: block;
+    padding: 0 10px;
+    text-align: center;
+}
+.price{
+    display: block;
+    font:14px/1.5 Helvetica Neue,Helvetica,Arial,Microsoft Yahei,Hiragino Sans GB,Heiti SC,WenQuanYi Micro Hei,sans-serif;
+    text-align: center;
+    padding-top: 20px;
+}
+.num{
+    color: #ff6700;
+}
+.w{
+    background-color: #F5F5F5;
+}
+
